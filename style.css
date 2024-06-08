@@ -1,0 +1,20 @@
+h1 {
+    color: black;
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+body {
+    margin: 10px;
+    padding: 5px;
+    background-color: azure;
+}
+
+button {
+    background-color: rgb(196, 198, 199);
+}
+button:hover {
+    transition: 0.3s ease all;
+    transform: translateY(-4px);
+}
