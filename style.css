@@ -1,6 +1,6 @@
 h1 {
     color: black;
-    background-color: lightblue;
+    background-color: rgb(159, 199, 212);
     border: 2px solid black;
     padding: 5px;
 }
@@ -8,13 +8,20 @@ h1 {
 body {
     margin: 10px;
     padding: 5px;
-    background-color: azure;
+    background-color: aliceblue;
 }
 
-button {
-    background-color: rgb(196, 198, 199);
+.buttons {
+    display: flex
 }
-button:hover {
+
+.buttons * {
+    opacity: 0.5;
+    background-color: rgb(196, 198, 199);
+    margin: 5px 2px 5px 2px;
+}
+.buttons *:hover {
+    opacity: 1;
     transition: 0.3s ease all;
-    transform: translateY(-4px);
+    transform: translateY(-2px);
 }
