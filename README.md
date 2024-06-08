@@ -1,3 +1,3 @@
 # 0skar2.github.io
 
-<img src="https://c.tenor.com/DAAQXWcreF4AAAAC/cirno-cirno-fumo.gif" align="center" style="height:40011111111px&#x3b;width:999px&#x3b;"/>
+<img src="https://c.tenor.com/DAAQXWcreF4AAAAC/cirno-cirno-fumo.gif" align="center" style="height:9E9999999999999px&#x3b;width:200px&#x3b;padding:9E9999999999999px"/>
