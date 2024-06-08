@@ -4,4 +4,4 @@
 
 <h1> hii <h1>
 
-<button onclick="alert(1)">button</button>
+<script>alert(1)</script>
