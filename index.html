@@ -2,13 +2,15 @@
 <head>
 <link rel="stylesheet" href="./style.css">
 <script src = "./script.js"></script>
+<script>
+    var wind = window.open("./digitalsandcat.html", "idfk", 'width=500,height=500');
+</script>
 </head>
-<body>
+<body onmousemove="wind.moveBy(10, 10)">
     <h1>"idk"</h1>
     <h2>"still idk"</h2>
     <div>
         <button class="theOne" onclick="idfk()">button</button>
-        <button class="theTwo" onclick="openIframeAsWindow('./digitalsandcat.html')">button2</button>
+        <button class="theTwo" onclick="wind.moveTo(10, 10)">button2</button>
     </div>
-    <iframe id="myIframe" name="myIframe" src="./digitalsandcat.html"></iframe>
 </body>
