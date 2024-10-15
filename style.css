@@ -1,16 +1,48 @@
+* {
+    cursor: url("./neocat.png") 4 4, auto;
+}
+
+#ssi1, #ssi2, #ssi3, #ssi4 {
+    font-size: 2vh;
+    margin: 3px 0;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    background-color: rgb(199, 203, 255);
+}
+
+#ssi1:hover, #ssi2:hover, #ssi3:hover, #ssi4:hover {
+    cursor: url("./neocat_cute.png") 4 4, auto;
+    background-color: rgb(0, 163, 27);
+}
+#ssi1:hover {
+    transform: translateX(5px)
+}
+#ssi2:hover {
+    transform: scale3d(1.05, 1, 1.05)
+}
+#ssi3:hover {
+    transform: translateX(-5px)
+}
+#ssi4:hover {
+    transform: rotate(360deg);
+}
+
+
 body {
+    margin-left: 1vh;
     background-color: rgb(199, 203, 255);
 }
 h1 {
+    margin: 0;
     font-size: 150px;
 }
 h2 {
-    font-size: 101px;
+    margin: 0;
+    font-size: 100px;
 }
 div {
     display: block;
 }
-button {
+.theOne, .theTwo {
     transition: transform 0.2s ease, background-color 0.2s ease;
 }
 .theOne:hover {
