@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(199, 203, 255);
+}
+h1 {
+    font-size: 150px;
+}
+h2 {
+    font-size: 101px;
+}
+div {
+    display: block;
+}
+button {
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.theOne:hover {
+    transform: translateY(-5px);
+    background-color: #ac89ff;
+}
+.theTwo:hover {
+    transform: translateY(-10px);
+    background-color: #ac89ff;
+}
