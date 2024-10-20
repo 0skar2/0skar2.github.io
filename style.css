@@ -16,16 +16,12 @@
 #ssi1:hover {
     transform: translateX(5px)
 }
-#ssi2:hover {
-    transform: scale3d(1.05, 1, 1.05)
+#ssi2:hover, #ssi4:hover {
+    transform: scale3d(1.05, 1.05, 1.05)
 }
 #ssi3:hover {
     transform: translateX(-5px)
 }
-#ssi4:hover {
-    transform: rotate(360deg);
-}
-
 
 body {
     margin-left: 1vh;
